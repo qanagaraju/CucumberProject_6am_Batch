@@ -8,7 +8,8 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 //@RunWith(Cucumber.class)
 @io.cucumber.testng.CucumberOptions
 (
-		features = {"D:\\Selenium_Examples_New\\com.Cucucmber_Examples\\Features\\AmazonSearch.feature"},
+		features = {"D:\\Selenium_Examples_New\\com.Cucucmber_Examples\\Features\\LoginWindow.feature",
+				"D:\\Selenium_Examples_New\\com.Cucucmber_Examples\\Features\\AmazonSearch.feature"},
 		glue= {"stepDefinitions"},
 		
 		//plugin = { "pretty", "html:target/cucumber-reports" }
