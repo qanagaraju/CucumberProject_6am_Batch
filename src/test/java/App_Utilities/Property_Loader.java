@@ -59,6 +59,10 @@ public class Property_Loader {
 	
 	//create a methods for each property
 	
+	public String getamazonurl() {
+		return prop.getProperty("amazonurl");
+	}
+	
 	public String getbrowsertype() {
 		return prop.getProperty("browsertype");
 	}
